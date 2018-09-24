@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Hello World</title>
+        <script src="node_modules/angular/angular.js"></script>
+        <script src=https://cdnapisec.kaltura.com/p/1164832/sp/116483200/embedPlaykitJs/uiconf_id/42380172/partner_id/1164832></script>
+    </head>
+    <body ng-app="app">
+    <div ng-controller="PlayerController">
+    <div id="kaltura-player" style="width: 600px;height: 360px" ng-init="video()">
+
+    </div>
+    </div>
+       <!-- <div class="app">
+            <h1>Apache Cordova</h1>
+            <div id="deviceready" class="blink">
+                <p class="event listening">Connecting to Device</p>
+                <p class="event received">Device is Ready</p>
+            </div>
+        </div>-->
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
